@@ -48,7 +48,7 @@
 			<div class="panel panel-default">
 				<div class="panel-heading backcolor" data-toggle="collapse" data-target="#collapse_1" aria-expanded="false" aria-controls="collapse_1"><span class="caret"></span> راهنما </div>
 				<div class="panel-body collapse in" id="collapse_1">
-					به زودی
+					به علت زیاد بودن توضیحات شفاهی شرح داده خواهد شد.
 				</div>
 			</div>
 			<div class="panel panel-default">
