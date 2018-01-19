@@ -7,7 +7,6 @@
 	
 	class base {
 		
-		private $db;
 		private $q;
 		private $a;
 		private $b;
@@ -15,12 +14,6 @@
 		
 		// آماده سازی اولیه:
 		public function __construct() {
-			/*$servername = "localhost";
-			$username = "root";
-			$password = "";
-			$dbname = "persian_compiler";
-			$this->db = new mysqli($servername, $username, $password, $dbname);
-			mysqli_query($this->db,"SET NAMES utf8");*/
 			$this->c = 0;
 		}
 		
@@ -233,12 +226,12 @@
 				else
 					return $this->rback($x);
 			}
-			if ($this->M($txt)) {//mFr
-				if ($this->Fr($txt))
-					return true;
-				else
-					return $this->rback($x);
-			}
+//			if ($this->M($txt)) {//mFr
+//				if ($this->Fr($txt))
+//					return true;
+//				else
+//					return $this->rback($x);
+//			}
 			if ($this->Gha($txt)) {//GhaFr
 				if ($this->Fr($txt))
 					return true;
