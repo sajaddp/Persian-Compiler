@@ -1,1 +1,1 @@
-# persian-compiler
+# Persian Compiler
